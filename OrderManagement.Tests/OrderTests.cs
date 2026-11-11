@@ -3,7 +3,7 @@
 namespace OrderManagement.Tests;
 
 public class OrderTests
-{
+{   
     [Fact]
     public void NewOrder_HasCreatedStatus()
     {
