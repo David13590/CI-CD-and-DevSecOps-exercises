@@ -29,5 +29,9 @@ jobs:
       - name: Build solution
         run: dotnet build --no-restore
 
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
       - name: Run unit tests
         run: dotnet test --no-build
